@@ -22,3 +22,23 @@
   border-inline: none;
   justify-content: space-between;
 }
+
+@media (width <= 31em) {
+  #primary strong {
+    display: none;
+  }
+
+  .logo {
+    width: 6.25rem;
+    height: 1.25rem;
+    object-fit: contain;
+  }
+}
+
+@media (width <= 61em) {
+   #secondary {
+    overflow: scroll;
+    white-space: nowrap;
+    gap: 2rem;
+  }
+}
